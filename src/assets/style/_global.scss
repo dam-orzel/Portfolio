@@ -1,0 +1,29 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,700&display=swap&subset=latin-ext");
+@import "./_colors.scss";
+body,
+html {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+}
+
+span,
+p,
+button,
+a {
+  font-family: "Open Sans", serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
